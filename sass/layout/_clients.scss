@@ -3,7 +3,7 @@
     padding-bottom : var(--section-pt-pb);
 }
 
-.clients-header{
+.clients__header{
     font-family: var(--main-font);
     font-weight: 700;
     font-size: 36px;
@@ -19,7 +19,7 @@
     justify-content: center;
 }
 
-.clients-list-link{
+.clients-list__item--link{
     display:flex;
     justify-content: center;
     align-items: center;
@@ -39,6 +39,8 @@
     }
 }
 
-.clients-list-item:not(:last-child) {
-    margin-right: var(--section-mr);
+.clients-list__item{
+    &:not(:last-child) {
+        margin-right: var(--section-mr);
+    }
 }

@@ -2,23 +2,18 @@
     padding-top : 60px;
     padding-bottom: 60px;
     background: #2F303A;
-    .container{
-        display: flex;
-        flex-direction: row;
-        justify-content:space-between;
-        flex-wrap: nowrap;
-    }
+    
 }
 
-.logo-word-bottom{
+.logo--word-bottom{
     color: var(--title-color);
 }
 
-.address {
+.footer-list__address {
     font-style: normal;
 }
 
-.address-list-map{
+.footer-list__address--map{
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
@@ -27,7 +22,7 @@
     color: var(--title-color);
 }
 
-.address-list-link{
+.footer-list__address--link{
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
@@ -36,19 +31,23 @@
     color: rgba(255, 255, 255, 0.6);
 }
 
-.address-list-title:not(:last-child){
-    margin-bottom: 6px;
+.footer-list__address-title{
+    &:not(:last-child){
+        margin-bottom: 6px;
+    }
 }
 
-.footer-list-title:not(:last-child){
-    margin-bottom: 20px;
+.footer-list__title{
+    &:not(:last-child){
+        margin-bottom: 20px;
+    }
 }
 
 .footer-social{
     margin-left: 70px;
 }
 
-.footer-social-text{
+.footer-social--text{
     margin-bottom: 20px;
     margin-top: 12px;
     font-family: var(--main-font);
@@ -61,17 +60,19 @@
     color: var(--title-color);
 }
 
-.footer-social-list{
+.footer-social__list{
     display:flex;
     justify-content: center;
 }
 
-.footer-social-title:not(:last-child) {
-    margin-right: 10px;
+.footer-social__title{
+    &:not(:last-child) {
+        margin-right: 10px;
+    }
 }
 
 
-.footer-icon{
+.footer-social__icon{
     display:flex;
     justify-content: center;
     align-items: center;
@@ -89,18 +90,16 @@
     }
 }
 
-
-
-.footer-social-icon{
+.footer-social__title--icon{
     width: 20px;
     height: 20px;
 }
 
-.footer-mailing-list{
+.footer-mailing__list{
     display: flex;
 }
 
-.footer-mailing-header{
+.footer-mailing--header{
     margin-bottom: 20px;
     margin-top: 12px;
     font-family: var(--main-font);
@@ -117,7 +116,7 @@
     margin-left: 95px;
 }
 
-.footer-mailing-mail{
+.footer-mailing__list--mail{
     border: 1px solid rgba(255, 255, 255, 0.3);
     box-sizing: border-box;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
@@ -142,7 +141,7 @@
     }
 }
 
-.footer-mailing-btn{
+.footer-mailing__list--btn{
     padding-left: 24px;
     width: 200px;
     height: 50px;
@@ -151,7 +150,7 @@
     align-items: center;
 }
 
-.footer-mailing_btn-icon{
+.footer-mailing__list--btn-icon{
     width: 24px;
     height: 24px;
     fill:var(--title-color);

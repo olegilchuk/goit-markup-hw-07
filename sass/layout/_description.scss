@@ -3,13 +3,13 @@
     padding-bottom: var(--section-pt-pb);
 }
 
-.list-description{
+.description-list{
     display: flex ;
     align-items: center;
     justify-content: center;
 }
 
-.list-description-title{
+.description-list__title{
     width: 270px;
 
    &:not(:last-child){
@@ -17,7 +17,7 @@
     } 
 }
 
-.list-description-icon{
+.description-list__title-icon{
     background: #F5F4FA;
     border-radius: 4px;
     margin-bottom: var(--section-mr);
@@ -27,12 +27,12 @@
     justify-content: center;
 }
 
-.description-icon{
+.description-list--icon{
     width: 70px;
     height: 70px;
 }
 
-.description-title{
+.description-list__header-text{
     margin-bottom: 10px;
     font-weight: 700;
     font-size: 14px;
@@ -43,7 +43,7 @@
     color: var(--text-color);
 }
 
-.description-text{
+.description-list__text{
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
